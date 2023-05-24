@@ -4,8 +4,8 @@ class Main {
     int num = 5;
     System.out.println(num);
     int myNum = -5;
-float myFloatNum = 2143.456f;
-char myLetter = 'a';
+float myFloatNum = 4009.387f;
+char myLetter = 'i';
 boolean myBool = false;
 String myText = "Olá";
     System.out.println(myNum);
@@ -19,7 +19,7 @@ String myText = "Olá";
     float y = x;
      System.out.println(x);
     System.out.println(y);
-    double myDouble = 9.78d;
+    double myDouble = 7.80d;
     int myInt = (int) myDouble; // Manual casting: double to int
     System.out.println(myDouble);
     System.out.println(myInt);
