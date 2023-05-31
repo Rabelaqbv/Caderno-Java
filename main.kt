@@ -1,31 +1,33 @@
-fun main() {
- //operador matematico
-  var x = 13
-  var y = 3
-  //exibir a soma de x e y
-  var soma=x+y
-  println("A soma é:"+soma)
-  //exibir a subtração de x e y
-  var sub=x-y
-  println("A subtração é:"+sub) 
-  //exibir a multiplicação de x e y
-var mult=x*y
-  println("A multiplicação é:"+mult)
-  //exibir a divisão entre x e y
-  var div=x/y
-  println("A divisão é:"+div)
-  //resto da divisão de x e y
-  var rest=x%y
-  println("O resto da divisão é:"+rest)
+fun main(args: Array<String>) {
+class Carro {
+  var marca = ""
+  var modelo = ""
+  var ano = 0
+} 
+// criar um objeto(instanciar) 
+val fuca = Carro()
 
-//incremento
-  println("O x é: "+ x)
-  ++x
-  println("Agora o x mais 1 é: "+x)
+// Access the properties and add some values to it
+fuca.marca = "Wolks"
+fuca.modelo = "Fusca"
+fuca.ano = 1975
 
-  //decremento
-  --x
-  println("agora o x menos 1 é: "+x)
+println(fuca.marca)  //Mostra Wolks
+println(fuca.modelo)  //Montra Fusca
+println(fuca.ano)  // Mostra 1975
 
+//instanciar outro carro imprimir os atributos
+
+  var must=Carro()
+
+  must.marca="Ford"
+  must.modelo="Mustang"
+  must.ano=1969
+
+  println(must.marca)
+  println(must.modelo)
+  println(must.ano)
   
+
 }
+  
