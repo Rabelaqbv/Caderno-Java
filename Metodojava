@@ -1,0 +1,37 @@
+//cria um metodo(sem parametro)
+  static void imPrime(){
+      System.out.println("Só imprimeisso");
+    }
+  
+  //aqui cria um método passando parametro
+  static void meuMetodo(String nome) {
+    System.out.println("O nome é; "+nome);
+  }
+  
+   //aqui cria um método passando parametro
+  static void nomeEclass Main {
+idade(String nome, int ano) {
+    System.out.println(nome + "tem " +ano + "anos");
+  }
+
+    //crie um metodo chamado exib que exibe uma String na tela
+  
+    //classe principal do java
+  public static void main (String[] args){
+     //chama metodo imPrime()              
+     imPrime();
+
+   //chama metodo meuMetodo()
+    meuMetodo("Isabelly");
+    meuMetodo("Giovanna");
+    meuMetodo("Thayane");
+
+    //metodo com dois parametros
+     nomeEidade("Isabelly", 17);
+     nomeEidade("Giovanna", 17);
+     nomeEidade("Thayane", 18);
+  
+  }
+
+
+}
